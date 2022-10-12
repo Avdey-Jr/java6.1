@@ -18,7 +18,7 @@ class StatictiksServiceTest {
     }
 
     @Test
-    void findMin() {
+    void findMaxNegativ() {
         StatictiksService service = new StatictiksService();
 
         long[] incomesInBillions = {-1, -2, -3, -7, -5, -12, -9, -11, -11, -13};
